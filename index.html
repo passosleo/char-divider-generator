@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>DividerGenerator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js" type="text/javascript"></script>
+</head>
+
+<body onload="loadListeners()">
+  <section>
+    <label for="char-select">Select char:</label>
+    <select name="char-select" id="char-select">
+      <option value="-">-</option>
+      <option value="_">_</option>
+      <option value="=">=</option>
+      <option value="*">*</option>
+      <option value="+">+</option>
+      <option value="/">/</option>
+      <option value="@">@</option>
+      <option value="#">#</option>
+    </select>
+  </section>
+  <section>
+    <label for="char-input">Select custom char:</label>
+    <input id="char-input" type="text" />
+  </section>
+  <section>
+    <label for="length-input">Select length:</label>
+    <input id="length-input" type="number" value="100" />
+  </section>
+
+  <section class="output-wrapper">
+    <label for="output">Output:</label>
+    <textarea id='output'></textarea>
+    <button id="generate-button">Generate and Copy</button>
+    <button id="clear-button">Clear Output</button>
+  </section>
+</body>
+
+</html>
