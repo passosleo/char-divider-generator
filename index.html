@@ -10,7 +10,7 @@
 </head>
 
 <body onload="loadListeners()">
-  <section>
+  <section class="wrapper">
     <label for="char-select">Select char:</label>
     <select name="char-select" id="char-select">
       <option value="-">-</option>
@@ -21,22 +21,42 @@
       <option value="/">/</option>
       <option value="@">@</option>
       <option value="#">#</option>
+      <option value="?">?</option>
+      <option value="!">!</option>
     </select>
   </section>
-  <section>
+  <section class="wrapper">
     <label for="char-input">Select custom char:</label>
     <input id="char-input" type="text" />
   </section>
-  <section>
+  <section class="wrapper">
     <label for="length-input">Select length:</label>
     <input id="length-input" type="number" value="100" />
   </section>
-
-  <section class="output-wrapper">
+  <section class="wrapper">
+    <label for="title-input">Select title:</label>
+    <input id="title-input" type="text" />
+  </section>
+  <section class="wrapper">
+    <label for="title-align-select">Select title alignment:</label>
+    <select name="title-align-select" id="title-align-select" disabled>
+      <option value="center">center</option>
+      <option value="left">left</option>
+      <option value="right">right</option>
+    </select>
+  </section>
+  <section class="wrapper">
+    <label for="comment-checkbox">Format to comment:</label>
+    <input id="comment-checkbox" type="checkbox" checked />
+  </section>
+  <section class="wrapper">
+    <button id="reset-button" class="">Reset</button>
+  </section>
+  <section class="wrapper">
     <label for="output">Output:</label>
-    <textarea id='output'></textarea>
-    <button id="generate-button">Generate and Copy</button>
-    <button id="clear-button">Clear Output</button>
+    <textarea id='output' class='output-text'></textarea>
+    <button id="generate-button" class='generate-button'>Generate and Copy</button>
+    <button id="clear-button" class='clear-button'>Clear Output</button>
   </section>
 </body>
 
