@@ -9,4 +9,5 @@ This is a little tool made by me to generate a "character divider" for any purpo
 * Comment format
 * Auto copy
 
+# Contribution
 Feel free to use, copy, share or improve this project.
