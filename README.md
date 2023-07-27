@@ -1,5 +1,5 @@
 # Char Divider Generator
-This is a little tool made by me to generate a "character divider" for any purpose.
+This is a little tool made by me using HTML, CSS and Javascript to generate a "character divider" for any purpose.
 
 # Features
 * Custom divider length
