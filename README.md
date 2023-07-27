@@ -8,3 +8,5 @@ This is a little tool made by me to generate a "character divider" for any purpo
 * Custom title and position for title (left, center, right)
 * Comment format
 * Auto copy
+
+Feel free to use, copy, share or improve this project.
